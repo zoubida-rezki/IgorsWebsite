@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,212 @@
 <body>
     <h1> Hellow world</h1>
     <p>my name is z </p>
-    <img src="assets/images/download2.jpg" alt="">
+<!--     <img src="assets/images/download2.jpg" alt=""> -->
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="Images/LOGO.png" class="logo"> -->
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> 
+            </nav>
+            <div class="header-txt">
+                <p> Computer Science Student</p>
+                <h1> Hey there, I'm <span> Y/n </span>,<br> Welcome to my Website</h1>
+                
+            </div>
+        </div>
+    </div>
+<!-- -- about me --- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+<!--                 <img src="Images/randomp2.jpg" alt=""> -->
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey, I'm Y/n, currently a senior at the University of Houston,
+                majoring in Computer Science with a minor in Mathematics. I'll be graduating
+                in Dec 2023. My coding skills cover Python, C++, JavaScript, and HTML/CSS, 
+                and I'm familiar with tools like MS Excel, MS Word, Visual Studio, and 
+                Photoshop. Beyond academics, I'm dedicated to activism and community 
+                leadership, striving to create a positive impact even while still in school.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                    <!-- <p class="tab-links" onclick="opentab('projects')"> Projects</p> -->
+                    <p class="tab-links" onclick="opentab('education')"> Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>WEB UI</span><br>Designing Website interfaces</li>
+                        <li><span>Web Development</span><br>Web Development</li>
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>BlackJack Game</span><br>Developed a fully functional Blackjack game in Python, incorporating, betting, and advanced gameplay
+                            features through object-oriented programming, and enhancing problem-solving skills.</li>
+                        <li><span>Tic Tac Toe Game</span><br>Developed an intelligent two-player Tic Tac Toe game that tracks player movements and outcomes,
+                            facilitating an interactive and engaging gaming experience.</li>
+                        <li><span>Recipe Website</span><br>Created a website using basic HTML and CSS that provides the ingredients and steps to three different dishes in an
+                            organized manner with a description and an image of the dish as well.</li>
+                    </ul>
+                </div> -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Aug 2021-Dec 2023</span><br>University of Houston, Bachelor of Science in Computer Science, minor in Mathematics</li>
+                        <li><span>Aug 2019-May 2021</span><br>Lone Star Community College,Associate of Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --- Projects ---- -->
+<div id="services">
+    <div class="container"> 
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+            <!-- <div> -->
+                <h2>BlackJack Game : </h2>
+                <p>Developed a fully functional Blackjack game in Python, incorporating, betting, and advanced gameplay
+                    features through object-oriented programming, and enhancing problem-solving skills.</p>
+                <a href="#">Github Repo</a>
+            <!-- </div>
+            <div> -->
+                <h2>Tic Tac Toe Game : </h2>
+                <p>Developed an intelligent two-player Tic Tac Toe game that tracks player movements and outcomes,
+                    facilitating an interactive and engaging gaming experience.</p>
+                <a href="#">Github Repo</a>
+            <!-- </div>
+            <div> -->
+                <h2>Recipe Website : </h2>
+                <p>Created a website using basic HTML and CSS that provides the ingredients and steps to three different dishes in an
+                    organized manner with a description and an image of the dish as well.</p>
+                <a href="#">Github Repo</a>
+            <!-- </div>  
+            <div>   -->
+                <h2>Personal Website : </h2>
+                <p>This current website!!!!!</p>
+                <a href="#">Github Repo</a>
+            <!-- </div> -->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ----portfolio-------->
+
+<div id="portfolio">
+    <div class="container"> 
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+           <div class="work">
+<!--            <img src="Images/randomp1.jpg" alt=""> -->
+           <div class="layer">
+            <h3>project 1</h3>
+            <p>discription</p>
+            <a href="#"> git repo</a>
+           </div>
+           </div>
+           <div class="work">
+<!--             <img src="Images/randomp1.jpg" alt=""> -->
+            <div class="layer">
+                <h3>project 2</h3>
+                <p>discription</p>
+                <a href="#"> git repo</a>
+               </div>
+            </div>
+            <div class="work">
+<!--                 <img src="Images/randomp1.jpg" alt=""> -->
+                <div class="layer">
+                    <h3>project 3</h3>
+                    <p>discription</p>
+                    <a href="#"> git repo</a>
+                   </div>    
+            </div>
+        </div>
+    <a href="#" class="btn"> See More</a>
+    </div>
+</div>
+<!-- ----contact-------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me </h1>
+                <p>Email@gmail.com</p>
+                <p>phone number ##############</p>
+                <div class="social-icons">
+                    <!-- <a href=""><i class="fab fa-facebook">f</i> </a>
+                    <a href=""><i class="fab fa-facebook"></i> </a>
+                    <a href=""><i class="fab fa-facebook"></i> </a>
+                    <a href=""><i class="fab fa-facebook"></i> </a>
+                    <a href=""><i class="fab fa-facebook"></i> </a> -->
+                </div>
+<!--                 <a href="Images/The math of a CNN_230706_152810.pdf" class="btn btn2">Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <!-- <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form> -->
+                <!-- <form action="https://formsubmit.co/zoubidaziroki@gmail.com" method="POST">
+                    <input type="text" name="name" required placeholder="Your Name"required>
+                    <input type="email" name="email" required  placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+               </form> -->
+            </div>
+            <!-- <div class="contact-right"></div> -->
+        </div>
+    </div>
+    <div class="copyright">
+        <p>@ made by zoubida rezki </p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
 </body>
 </html>
